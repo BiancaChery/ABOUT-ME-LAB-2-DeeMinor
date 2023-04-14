@@ -1,0 +1,12 @@
+body {
+background-color: rgb(247, 155, 185);
+}
+header {
+  text-align:center;
+}
+main {
+  font-size: x-large;
+  width: 75% ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
