@@ -8,8 +8,9 @@ Extended about me Project with more information about me
 
 ### Links and Resources:
 [REPLIT](https://replit.com/@code-201-n1)
-[GIT CHEAT] (https://www.w3schools.com/jsref/jsref_obj_string.asp
-)
+
+[GIT CHEAT](https://www.w3schools.com/jsref/jsref_obj_string.asp)
+
 ### Lighthouse Accessibility Report Score IS 100
 *SEE SCREENSHOT ATTACHMENT
 
