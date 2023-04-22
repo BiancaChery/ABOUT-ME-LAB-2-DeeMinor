@@ -1,25 +1,20 @@
-response = prompt("What is my favorite hobby?");
-console.log("Your thoughts?" + response);
-alert("Try again!")
-alert("You are correct!") 
+'use strict'
 
-let response;
-let correctAnswer = scrapbooking
-let x = scrapbooking
+let correctAnswer;
+correctAnswer = "peach"
+let attempts=0
 
-answer = prompt(question);
-if (response === correctAnswer) {
-  console.log ("You're right!");
- } else {
-  console.log("That's incorrect")
+while (true) {
+  let favFruit = prompt("what is my favorite fruit?").toLowerCase();
+  
+  if (favFruit === correctAnswer) {
+    console.log("correct")
+    break;
+  }
+ else { 
+  console.log ("try again");
+  attempts=attempts + 1
  }
-
-const hobbies = ["scrapbooking", "crafts", "journaling"]
-
-while(x === "scrapbooking") {
-    response = prompt("Think of arts and crafts")
-    console.log("You said + response");
-
+ alert(`you guessed ${attempts}`);
 }
-
 
